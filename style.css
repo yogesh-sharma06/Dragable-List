@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #595db8;
+}
+.sortble-list {
+  background-color: #fff;
+  width: 90%;
+  padding: 20px 25px 20px;
+}
+.sortble-list .item {
+  list-style: none;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 11px;
+  padding: 10px 13px;
+  justify-content: space-between;
+}
+.item .details {
+  display: flex;
+  align-items: center;
+}
+.item .details img {
+  width: 43px;
+  height: 43px;
+  margin-right: 11px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.draggablelines div {
+  width: 25px;
+  height: 2px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  background-color: #474747;
+}
+/* .item.krishna{
+
+}
+.item.krishna {
+    position: relative;
+} */
+.item.dragging {
+    opacity: 0.3;
+    
+  /* position: relative; */
+}
